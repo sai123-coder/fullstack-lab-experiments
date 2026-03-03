@@ -1,0 +1,12 @@
+<h2>Contact Form</h2>
+
+<input placeholder="Name" [(ngModel)]="formData.name">
+<br><br>
+
+<input placeholder="Email" [(ngModel)]="formData.email">
+<br><br>
+
+<textarea placeholder="Message" [(ngModel)]="formData.message"></textarea>
+<br><br>
+
+<button (click)="submitForm()">Send</button>
